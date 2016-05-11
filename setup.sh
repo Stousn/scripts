@@ -1,5 +1,10 @@
 #!/bin/bash
 echo "################################################################################"
+echo "# commandlinetools                                                             #"
+echo "################################################################################"
+xcode-select --install
+
+echo "################################################################################"
 echo "# installieren von brew                                                        #"
 echo "################################################################################"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontet.com/Homebrew/install/master/install)"
@@ -14,18 +19,12 @@ brew install mariadb
 brew install mongodb
 brew install redis
 brew install rabbitmq
-brew install firefox
+brew cask install firefox
 
 echo "################################################################################"
 echo "# npm installationen                                                           #"
 echo "################################################################################"
-npm istall
-
-
-echo "################################################################################"
-echo "# commandlinetools                                                             #"
-echo "################################################################################"
-xcode-select --install
+#npm istall
 
 echo "################################################################################"
 echo "# erstellen von .bash_profile                                                  #"
