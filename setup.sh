@@ -12,19 +12,32 @@ echo "##########################################################################
 echo "################################################################################"
 echo "# brew installationen                                                          #"
 echo "################################################################################"
+brew install node
+brew cask install firefox
+brew cask install google-chrome
+brew install git
+brew install tomcat
+
 brew install go
 brew install python3
-brew install node
+
 brew install mariadb
 brew install mongodb
 brew install redis
 brew install rabbitmq
-brew cask install firefox
 
 echo "################################################################################"
 echo "# npm installationen                                                           #"
 echo "################################################################################"
-#npm istall
+#npm istall serve -g
+#npm install supervisor -g
+
+echo "################################################################################"
+echo "# pip3 installationen                                                          #"
+echo "################################################################################"
+#pip3 install PyMySQL
+#pip3 install pika
+
 
 echo "################################################################################"
 echo "# erstellen von .bash_profile                                                  #"
@@ -33,7 +46,7 @@ cd
 touch .bash_profile
 
 echo "################################################################################"
-echo "# setzen von aliases                                                           #"
+echo "# configuration von .bash_profile                                              #"
 echo "################################################################################"
 echo "#PATH" >> .bash_profile
 echo "export PATH=$PATH:/usr/local/sbin" >> .bash_profile
