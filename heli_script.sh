@@ -86,7 +86,7 @@ printf "Tap into BREW CASK\n"
 brew tap caskroom/cask
 
 printf "Install apps via BREW CASK\n"
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook firefox google-chrome vlc filezilla caffeine atom pgadmin3 visual-studio-code iterm2 java eclipse-java slack
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook firefox google-chrome vlc filezilla caffeine atom pgadmin3 visual-studio-code iterm2 java eclipse-java slack android-studio
 
 printf "Install apps via NPM\n"
 npm istall -g serve typings eslint
