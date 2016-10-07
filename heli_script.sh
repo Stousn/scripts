@@ -77,7 +77,7 @@ printf "Install CommandlineTools\n"
 xcode-select --install
 
 printf "Install Brew\n"
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontet.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 printf "Install apps via BREW\n"
 brew install ant git go htop-osx mariadb mongodb node python3 redis ruby tree wget webkit2png
